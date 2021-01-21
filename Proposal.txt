@@ -1,0 +1,35 @@
+Proposal Jessy and the Boys(Group 1)
+
+Members:
+
+Ben Kramskoi
+Buddy Slayer
+Nehemiah Porter
+Jessy Thomas
+Kevin Lam
+
+Topic: Martial Arts Dojos
+
+Purpose: With the times that we live in, self defense seems to be more important than ever.
+
+What better way to defend your self than using your own body.
+
+This site is for people who would like to learn self defense. Giving the user knowledge about the specific style
+and the nearest dojo.
+
+Process:
+
+1. Webscrape using beautifulsoup the following website: https://dojos.info/NewJersey/Counties.aspx
+2. With the data scraped create a database(sql?) and upload the clean dataframe to it.
+3. Create webpages to fit our needs.
+4. Deploy
+
+Format:
+
+* Homepage: A legend view that describes the martial arts styles, what each style is and describes them(grappling,striking, etc.)
+* A map with different locations and martial arts dojos and schools(rat example), with tool tips.
+* A form for the user to enter their info to find the closest school.
+
+Inspirations:
+
+Attached.
