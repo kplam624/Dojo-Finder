@@ -14,15 +14,16 @@
 
 ---
 
-TODO
+The purpose of this project is to create an application for users to find martial art schools near them. This is for those that are interested in martial arts and would like to find one in their area.
 
 ## Technology
 
 ---
 
 * Javascript/HTML/CSS
-
-**TODO**
+* Python
+* Flask
+* Beautifulsoup
 
 ## Process
 
