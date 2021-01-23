@@ -3,3 +3,4 @@ d3.json(queryUrl, function(data) {
    createFeatures(data.features);
 });
 function createFeatures(karateData) {
+function styleinfo(feature){
