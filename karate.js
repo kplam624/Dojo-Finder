@@ -9,3 +9,10 @@ function onEachFeature(feature, layer) {
     layer.bindPopup("<h3>" + feature.properties.place +
         "</h3><hr><p>" + new Date(feature.properties.time) + "</p>");
     }
+var karate = L.geoJSON(karateData, {
+    onEachFeature: onEachFeature,
+    pointToLayer: function (feature, latlng) {
+            return L.circleMarker(latlng);
+        },
+        style: styleinfo
+    });
