@@ -5,3 +5,7 @@ d3.json(queryUrl, function(data) {
 function createFeatures(karateData) {
 function styleinfo(feature){
    return {
+function onEachFeature(feature, layer) {
+    layer.bindPopup("<h3>" + feature.properties.place +
+        "</h3><hr><p>" + new Date(feature.properties.time) + "</p>");
+    }
