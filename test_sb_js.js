@@ -26,11 +26,7 @@ var data = [
               1,1,1,1,
               1,1,1,1,
               1,1,1,1,
-              1,1,1,1, ]
-
-  
-
-              
+              1,1,1,1, ],
     "leaf": {"opacity": 0.4},
     "marker": {"line": {"width": 2}},
     "branchvalues": 'total'
