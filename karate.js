@@ -1,4 +1,4 @@
-var queryUrl = "https://dojos.info/NewJersey/Counties.aspx"
+var queryUrl = "test_dojo.json"
 var myCenter = new google.maps.LatLng(39.533, -74.687);
     function initialize() {
         var mapProp = {
