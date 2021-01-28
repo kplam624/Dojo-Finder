@@ -1,0 +1,2096 @@
+{
+    "schema": {
+        "fields": [
+            {
+                "name": "index",
+                "type": "integer"
+            },
+            {
+                "name": "Name",
+                "type": "string"
+            },
+            {
+                "name": "Phone",
+                "type": "string"
+            },
+            {
+                "name": "Zipcode",
+                "type": "string"
+            },
+            {
+                "name": "Street",
+                "type": "string"
+            },
+            {
+                "name": "City",
+                "type": "string"
+            },
+            {
+                "name": "State",
+                "type": "string"
+            },
+            {
+                "name": "Style",
+                "type": "string"
+            },
+            {
+                "name": "lat",
+                "type": "number"
+            },
+            {
+                "name": "lng",
+                "type": "number"
+            }
+        ],
+        "primaryKey": [
+            "index"
+        ],
+        "pandas_version": "0.20.0"
+    },
+    "data": [
+        {
+            "index": 0,
+            "Name": "Cardo Urso's HABU PIT",
+            "Phone": "609-415-5014",
+            "Zipcode": "08234",
+            "Street": "2511 Fire Road, Unit 13 A",
+            "City": " Egg Harbor Township",
+            "State": "NJ",
+            "Style": [
+                "Boxing",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Judo",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai",
+                "Sambo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 1,
+            "Name": "Lightning Lyall MMA",
+            "Phone": "609-474-3055",
+            "Zipcode": "08406",
+            "Street": "Ventnor Ave",
+            "City": " Ventnor City",
+            "State": "NJ",
+            "Style": [
+                "Karate",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai",
+                "Privates",
+                "Group"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 2,
+            "Name": "Lightning MMA",
+            "Phone": "609-474-3055",
+            "Zipcode": "08406",
+            "Street": "Newport Ave",
+            "City": " Ventnor City",
+            "State": "NJ",
+            "Style": [
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 3,
+            "Name": "South Jersey Wing Chun Kuen Do",
+            "Phone": "609-432-6156",
+            "Zipcode": "08232",
+            "Street": "801 N Main Street",
+            "City": " Pleasantville ",
+            "State": "NJ",
+            "Style": [
+                "Kung Fu",
+                "Wing Chun"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 4,
+            "Name": "Ultimate Martial Arts Academy",
+            "Phone": "609-625-0880",
+            "Zipcode": "08330",
+            "Street": "4450 E Black Horse Pike",
+            "City": " Hamilton Township",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Karate",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 5,
+            "Name": "Devine's Martial Arts",
+            "Phone": "609-839-5981",
+            "Zipcode": "08330",
+            "Street": "4450 Black Horse Pike",
+            "City": " Mays Landing",
+            "State": "NJ",
+            "Style": [
+                "Tang Soo Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 6,
+            "Name": "Hammonton Karate",
+            "Phone": "888-986-4652",
+            "Zipcode": "08037",
+            "Street": "1170 White horse pike",
+            "City": " Hammonton",
+            "State": "NJ",
+            "Style": [
+                "Arnis\/Kali\/Escrima\/FMA",
+                "Jeet Kune do",
+                "Karate",
+                "Kempo\/Kenpo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 7,
+            "Name": "Rich Miller, Sr.'s Dragon Kenpo Karate",
+            "Phone": "609-204-5019",
+            "Zipcode": "08330",
+            "Street": "84 Putters Lane",
+            "City": " Mays Landing",
+            "State": "NJ",
+            "Style": [
+                "Goju Ryu Karate",
+                "Jeet Kune do",
+                "Judo",
+                "Mixed Martial Arts (MMA)",
+                "Tae Kwon Do",
+                "Specializing in Kenpo Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 8,
+            "Name": "Shudokan School of Karate Hammonton",
+            "Phone": "609-668-1189",
+            "Zipcode": "08037",
+            "Street": "29 South Washington St.",
+            "City": " Hammonton",
+            "State": "NJ",
+            "Style": [
+                "Capoeira",
+                "Karate",
+                "Kick Boxing",
+                "Kobudo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 9,
+            "Name": "Hammonton Martial Arts",
+            "Phone": "609-214-7888",
+            "Zipcode": "08037",
+            "Street": "1170 White Horse Pike",
+            "City": " Hammonton",
+            "State": "NJ",
+            "Style": [
+                "Karate",
+                "Kick Boxing"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 10,
+            "Name": "MacKenzie & Yates Martial Arts - Hammonton",
+            "Phone": "609-481-2177",
+            "Zipcode": "08037",
+            "Street": "109 Bellevue Avenue",
+            "City": " Hammonton",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Kick Boxing",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 11,
+            "Name": "Modern Bujutsu Center of Hammonton",
+            "Phone": "609-204-5443",
+            "Zipcode": "08037",
+            "Street": "(Behind Atlanticare)",
+            "City": " Hammonton",
+            "State": "NJ",
+            "Style": [
+                "Arnis\/Kali\/Escrima\/FMA",
+                "Goju Ryu Karate",
+                "Kick Boxing"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 12,
+            "Name": "Modesto's Karate Academies",
+            "Phone": "609-287-1328",
+            "Zipcode": "08234",
+            "Street": "6654 Black Horse Pike",
+            "City": " Egg Harbor Township",
+            "State": "NJ",
+            "Style": [
+                "Karate",
+                "Kempo\/Kenpo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 13,
+            "Name": "Amerikick",
+            "Phone": "609-677-8808",
+            "Zipcode": "08234",
+            "Street": "6701 Black Horse Pike",
+            "City": " Egg Harbor Township",
+            "State": "NJ",
+            "Style": [
+                "Goju Ryu Karate",
+                "Kempo\/Kenpo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 14,
+            "Name": "Freestyle Martial Arts Academy, LLC",
+            "Phone": "609-705-4300",
+            "Zipcode": "08205",
+            "Street": "319 E Jimmie Leeds Rd, Unit 152",
+            "City": " Galloway",
+            "State": "NJ",
+            "Style": [
+                "Mixed Martial Arts (MMA)"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 15,
+            "Name": "Simkin's Martial Arts",
+            "Phone": "609-652-8881",
+            "Zipcode": "08205",
+            "Street": "407 South Pitney Road",
+            "City": " Galloway",
+            "State": "NJ",
+            "Style": [
+                "Goju Ryu Karate",
+                "Kobudo",
+                "Mixed Martial Arts (MMA)"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 16,
+            "Name": "Egg Harbor Township Karate Combat Hapkido Academy",
+            "Phone": "609-402-6684",
+            "Zipcode": "08234",
+            "Street": "209 Ontario Ave",
+            "City": " Egg Harbor Township",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Wrestling"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 17,
+            "Name": "Modern Fighting Concepts",
+            "Phone": "609-646-2113",
+            "Zipcode": "08201",
+            "Street": "307 White Horse Pike",
+            "City": " Absecon",
+            "State": "NJ",
+            "Style": [
+                "Arnis\/Kali\/Escrima\/FMA",
+                "Brazilian Jiu-jitsu",
+                "Jeet Kune do",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 18,
+            "Name": "ACSKC | Atlantic County Shotokan Karate Club",
+            "Phone": "609-318-4681",
+            "Zipcode": "08201",
+            "Street": "800 Irelan Avenue",
+            "City": " Absecon",
+            "State": "NJ",
+            "Style": [
+                "Shotokan Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 19,
+            "Name": "Diamond's Mixed Martial Arts Academy",
+            "Phone": "267-592-9477",
+            "Zipcode": "08225",
+            "Street": "801 Tilton Road",
+            "City": " Northfield",
+            "State": "NJ",
+            "Style": [
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Karate",
+                "Krav Maga",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 20,
+            "Name": "American Tang Soo Karate Acdmy",
+            "Phone": "609-646-8855",
+            "Zipcode": "08232",
+            "Street": "401 N Main St",
+            "City": " Pleasantville",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 21,
+            "Name": "Ocean Tae Kwon Do",
+            "Phone": "609-646-1380",
+            "Zipcode": "08205",
+            "Street": "731 E Great Creek Rd",
+            "City": " Galloway",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 22,
+            "Name": "World Cup Karate",
+            "Phone": "609-601-5577",
+            "Zipcode": "08221",
+            "Street": "210 New Road, Unit 10",
+            "City": " Linwood",
+            "State": "NJ",
+            "Style": [
+                "Karate",
+                "Tae Kwon Do",
+                "Tang Soo Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 23,
+            "Name": "Smiling Dragon Kung Fu Academy",
+            "Phone": "609-457-3045",
+            "Zipcode": "08406",
+            "Street": "307 N Dorset Ave.",
+            "City": " Ventnor City",
+            "State": "NJ",
+            "Style": [
+                "Kung Fu",
+                "Wing Chun"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 24,
+            "Name": "International Karate Academy",
+            "Phone": "609-927-7353",
+            "Zipcode": "08244",
+            "Street": "53 Laurel Dr",
+            "City": " Somers Point",
+            "State": "NJ",
+            "Style": [
+                "Mixed Martial Arts (MMA)"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 25,
+            "Name": "Karate For Kids",
+            "Phone": "609-457-3045",
+            "Zipcode": "08406",
+            "Street": "307 N. Dorset Avenue",
+            "City": " Ventnor City",
+            "State": "NJ",
+            "Style": [
+                "Kung Fu",
+                "Tai chi",
+                "Wing Chun"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 26,
+            "Name": "Sifu Shaman's Wing Chun Kung Fu",
+            "Phone": "609-457-3045",
+            "Zipcode": "08406",
+            "Street": "307 N Dorset Ave, Unit A4",
+            "City": " Ventnor City",
+            "State": "NJ",
+            "Style": [
+                "Tai chi",
+                "Wing Chun"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 27,
+            "Name": "Margate Karate Academy",
+            "Phone": "609-823-7443",
+            "Zipcode": "08402",
+            "Street": "10 S Essex Ave",
+            "City": " Margate City",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 28,
+            "Name": "Modesto's Karate Academies",
+            "Phone": "609-287-1328",
+            "Zipcode": "08402",
+            "Street": "10 S. Essex Ave.",
+            "City": " Margate City",
+            "State": "NJ",
+            "Style": [
+                "Karate",
+                "Kempo\/Kenpo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 29,
+            "Name": "Ninja Academy",
+            "Phone": "609-823-0345",
+            "Zipcode": "08406",
+            "Street": "5205 Ventnor Ave",
+            "City": " Ventnor City",
+            "State": "NJ",
+            "Style": [
+                "Ninjutsu\/Ninpo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 30,
+            "Name": "Bergen County Brazilian Jiu Jitsu",
+            "Phone": "201-225-0099",
+            "Zipcode": "07410",
+            "Street": "23-12 Broadway",
+            "City": " Fair Lawn",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 31,
+            "Name": "Champion Tae Kwon DO",
+            "Phone": "201-703-1222",
+            "Zipcode": "",
+            "Street": "Missing Street Address",
+            "City": "Fair Lawn",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 32,
+            "Name": "Center-Karate & Family Fitness",
+            "Phone": "201-342-3551",
+            "Zipcode": "07604",
+            "Street": "213 Boulevard",
+            "City": " Hasbrouck Heights",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 33,
+            "Name": "Tiger Schulmann's Karate Ctr",
+            "Phone": "201-646-0850",
+            "Zipcode": "07601",
+            "Street": "389 S State Rt 17",
+            "City": " Hackensack",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 34,
+            "Name": "American Self Defense & Fitness Center",
+            "Phone": "201-368-9050",
+            "Zipcode": "07662",
+            "Street": "156 W Passaic St, Unit #C",
+            "City": " Rochelle Park",
+            "State": "NJ",
+            "Style": [
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Judo",
+                "Karate",
+                "Tae Kwon Do",
+                "Wrestling",
+                "Cardio Kick Boxing"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 35,
+            "Name": "Tora Dojo Rochelle Park, NJ",
+            "Phone": "908-499-8399",
+            "Zipcode": "07662",
+            "Street": "5 W Passaic St",
+            "City": " Rochelle Park",
+            "State": "NJ",
+            "Style": [
+                "Aiki Jitsu (Aikijutsu)",
+                "Aikido",
+                "Iaido",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Judo",
+                "Kempo\/Kenpo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 36,
+            "Name": "Yoo's Martial Arts",
+            "Phone": "201-794-3636",
+            "Zipcode": "07410",
+            "Street": "36-12 Broadway",
+            "City": " Fair Lawn",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 37,
+            "Name": "Trento's Martial Arts and Fitness Center",
+            "Phone": "201-203-0773",
+            "Zipcode": "07662",
+            "Street": "322 Rochelle Ave",
+            "City": " Rochelle Park",
+            "State": "NJ",
+            "Style": [
+                "Kick Boxing",
+                "Tae Kwon Do",
+                "Tang Soo Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 38,
+            "Name": "Tiger Schulmann's Karate Ctr",
+            "Phone": "201-712-0026",
+            "Zipcode": "07652",
+            "Street": "221 E State Rt 4",
+            "City": " Paramus",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 39,
+            "Name": "Fist Of Interception Institute",
+            "Phone": "201-649-3050",
+            "Zipcode": "07662",
+            "Street": "235 Rochelle Avenue",
+            "City": " Rochelle Park",
+            "State": "NJ",
+            "Style": [
+                "Jeet Kune do",
+                "Self-Protection",
+                "Self-Defense"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 40,
+            "Name": "Maywood Karate",
+            "Phone": "201-712-1416",
+            "Zipcode": "07607",
+            "Street": "47 W Pleasant Ave",
+            "City": " Maywood",
+            "State": "NJ",
+            "Style": [
+                "Shorin Ryu Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 41,
+            "Name": "MVP Taekwondo Center",
+            "Phone": "201-556-9799",
+            "Zipcode": "07662",
+            "Street": "8 Railroad Avenue",
+            "City": " Rochelle Park",
+            "State": "NJ",
+            "Style": [
+                "Kick Boxing",
+                "Tae Kwon Do",
+                "Submission Wrestling",
+                "Cage Fitness"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 42,
+            "Name": "Ro Insler Taekwondo",
+            "Phone": "973-777-4741",
+            "Zipcode": "07410",
+            "Street": "Thomas Edison School",
+            "City": " Fair Lawn",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 43,
+            "Name": "Family Martial Arts Center",
+            "Phone": "201-265-7000",
+            "Zipcode": "07661",
+            "Street": "464 Kinderkamack Road",
+            "City": " River Edge",
+            "State": "NJ",
+            "Style": [
+                "Judo",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Shotokan Karate",
+                "Ladies Kickboxing",
+                "Yoga"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 44,
+            "Name": "Silver Fox Brazilian Jiu Jitsu Academy",
+            "Phone": "201-398-6032",
+            "Zipcode": "07663",
+            "Street": "380 Market Street",
+            "City": " Saddle Brook",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Wrestling",
+                "MMA Kickboxing"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 45,
+            "Name": "Silver Fox Brazilian Jiu Jitsu Academy",
+            "Phone": "201-398-6032",
+            "Zipcode": "07663",
+            "Street": "380 Market Street",
+            "City": " Saddle Brook",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Kick Boxing",
+                "Muay Thai",
+                "Striking for MMA"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 46,
+            "Name": "Kimura Shukokai Karate",
+            "Phone": "201-655-7893",
+            "Zipcode": "07663",
+            "Street": "462 Market Street",
+            "City": " Saddle Brook",
+            "State": "NJ",
+            "Style": [
+                "Shukokai Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 47,
+            "Name": "Kokushikai, Inc",
+            "Phone": "201-420-4448",
+            "Zipcode": "07410",
+            "Street": "23-12 Broadway",
+            "City": " Fair Lawn",
+            "State": "NJ",
+            "Style": [
+                "Judo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 48,
+            "Name": "Budo-Kai Traditional Karate & Fitness",
+            "Phone": "201-265-8109",
+            "Zipcode": "07661",
+            "Street": "812 Kinderkamack Rd",
+            "City": " River Edge",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 49,
+            "Name": "Edge Kickboxing & Fitness",
+            "Phone": "201-703-1222",
+            "Zipcode": "07663",
+            "Street": "Lower Level",
+            "City": " Saddle Brook",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai",
+                "Wrestling",
+                "Sil Jun Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 50,
+            "Name": "The Art of self Defense",
+            "Phone": "201-497-0114",
+            "Zipcode": "07407",
+            "Street": "430 Market Street, Unit 7",
+            "City": " Elmwood Park",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Judo",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 51,
+            "Name": "River Dell Shukokai Karate Center",
+            "Phone": "201-262-7440",
+            "Zipcode": "07649",
+            "Street": "227 Kinderkamack Road",
+            "City": " Oradell",
+            "State": "NJ",
+            "Style": [
+                "Kimura Shukokai Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 52,
+            "Name": "Tiger Schulmann's Kickboxing",
+            "Phone": "201-215-4405",
+            "Zipcode": "07407",
+            "Street": "485 Boulevard",
+            "City": " Elmwood Park",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Karate",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 53,
+            "Name": "Family Martial Arts Center",
+            "Phone": "201-265-7000",
+            "Zipcode": "07646",
+            "Street": "854 River Rd",
+            "City": " New Milford",
+            "State": "NJ",
+            "Style": [
+                "Karate",
+                "Kick Boxing",
+                "Shotokan Karate",
+                "Ladies Kickboxing"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 54,
+            "Name": "P.a.l. Karate",
+            "Phone": "201-491-9020",
+            "Zipcode": "07601",
+            "Street": "284 Hackensack Avenue",
+            "City": " Hackensack",
+            "State": "NJ",
+            "Style": [
+                "Karate",
+                "seido ryu"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 55,
+            "Name": "Bergen County Mixed Martial Arts Classes",
+            "Phone": "201-703-1222",
+            "Zipcode": "07663",
+            "Street": "101 US Hwy 46 West",
+            "City": " Saddle Brook",
+            "State": "NJ",
+            "Style": [
+                "Mixed Martial Arts (MMA)",
+                "Kids Martial Arts",
+                "Kickboxing and Boxing",
+                "Sil Jun Do Self Defense",
+                "Fitness Boot Camp"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 56,
+            "Name": "S. Pavlou Tae Kwon Do",
+            "Phone": "201-452-3372",
+            "Zipcode": "07410",
+            "Street": "3-06 Fair Lawn",
+            "City": " Fair Lawn",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 57,
+            "Name": "Okinawan Karate & Kobudo Inst",
+            "Phone": "201-794-1679",
+            "Zipcode": "07410",
+            "Street": "12-68 River Rd",
+            "City": " Fair Lawn",
+            "State": "NJ",
+            "Style": [
+                "Kobudo",
+                "Karate-Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 58,
+            "Name": "Fairlawn Taekwondo",
+            "Phone": "201-791-7500",
+            "Zipcode": "07410",
+            "Street": "7-7 Fair Lawn Ave",
+            "City": " Fair Lawn",
+            "State": "NJ",
+            "Style": [
+                "Karate",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 59,
+            "Name": "Lee's Tae Kwon DO Ctr",
+            "Phone": "201-262-1175",
+            "Zipcode": "07649",
+            "Street": "400 Kinderkamack Rd",
+            "City": " Oradell",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 60,
+            "Name": "Bakbakan International",
+            "Phone": "973-253-1946",
+            "Zipcode": "07644",
+            "Street": "95 Dell Glen Ave",
+            "City": " Lodi",
+            "State": "NJ",
+            "Style": [],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 61,
+            "Name": "Shoto Kan Karate-Doe Academy I",
+            "Phone": "201-488-3656",
+            "Zipcode": "07601",
+            "Street": "307 Main St",
+            "City": " Hackensack",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 62,
+            "Name": "Body Mind Systems Training Ctr",
+            "Phone": "201-225-1180",
+            "Zipcode": "07646",
+            "Street": "211 Main St",
+            "City": " New Milford",
+            "State": "NJ",
+            "Style": [
+                "Aiki Jitsu (Aikijutsu)",
+                "Hapkido",
+                "Kung Fu",
+                "Tai chi",
+                "Bagua Zhang",
+                " Kong Su Doe"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 63,
+            "Name": "Legacy Tae Kwon DO",
+            "Phone": "973-249-9200",
+            "Zipcode": "07644",
+            "Street": "2 Mercer St",
+            "City": " Lodi",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 64,
+            "Name": "YI JING MN Kung Fu School",
+            "Phone": "201-560-2692",
+            "Zipcode": "07450",
+            "Street": "1113 E. Ridgewood Ave",
+            "City": " Ridgewood",
+            "State": "NJ",
+            "Style": [
+                "Mixed Martial Arts (MMA)",
+                "Tai chi",
+                "Competition style for Push Hands ( Stationary and Moving )"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 65,
+            "Name": "Faustini's Institute of Martial Arts",
+            "Phone": "201-261-1780",
+            "Zipcode": "07649",
+            "Street": "660 Kinderkamack Rd.",
+            "City": " Oradell",
+            "State": "NJ",
+            "Style": [
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Judo",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 66,
+            "Name": "International Academy of Tae",
+            "Phone": "973-340-3008",
+            "Zipcode": "07026",
+            "Street": "153 Outwater Ln",
+            "City": " Garfield",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 67,
+            "Name": "Barr Karate",
+            "Phone": "201-491-9020",
+            "Zipcode": "07601",
+            "Street": "150 Kansas Street, 2nd Floor",
+            "City": " Hackensack",
+            "State": "NJ",
+            "Style": [
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 68,
+            "Name": "Onpoint Brazilian Jiu Jitsu",
+            "Phone": "201-446-4020",
+            "Zipcode": "07644",
+            "Street": "79 south main street",
+            "City": " Lodi",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Wrestling"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 69,
+            "Name": "Gary Stevens Taekwondo",
+            "Phone": "201-670-7263",
+            "Zipcode": "07452",
+            "Street": "175 Rock Rd",
+            "City": " Glen Rock",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 70,
+            "Name": "CHON - JI Academy Of Martial Arts",
+            "Phone": "201-907-0020",
+            "Zipcode": "07666",
+            "Street": "422 Cedar Lane",
+            "City": " Teaneck",
+            "State": "NJ",
+            "Style": [
+                "Kick Boxing",
+                "Kids Martial Arts",
+                "Gracie Jiu Jitsu",
+                "Youth Martial Arts"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 71,
+            "Name": "Chon-Ji Academy of Martial Arts, Inc.",
+            "Phone": "201-907-0020",
+            "Zipcode": "07666",
+            "Street": "422 Cedar Ln",
+            "City": " Teaneck",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Hapkido",
+                "Kick Boxing",
+                "Tae Kwon Do",
+                "Gracie Combatives"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 72,
+            "Name": "Garfield Taekwondo Ctr",
+            "Phone": "973-340-7507",
+            "Zipcode": "07026",
+            "Street": "11 Belmont Ave",
+            "City": " Garfield",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 73,
+            "Name": "GongKwon Martial Arts Academy",
+            "Phone": "201-880-1388",
+            "Zipcode": "07603",
+            "Street": "78 West Main St",
+            "City": " Bogota",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Judo",
+                "Mixed Martial Arts (MMA)",
+                "Tae Kwon Do",
+                "GongKwon Yusul"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 74,
+            "Name": "Ridgewood Shukokai Karate School",
+            "Phone": "201-447-2272",
+            "Zipcode": "07450",
+            "Street": "30 Cottage Pl",
+            "City": " Ridgewood",
+            "State": "NJ",
+            "Style": [
+                "Shukokai Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 75,
+            "Name": "Garfield Karate",
+            "Phone": "973-855-2182",
+            "Zipcode": "07026",
+            "Street": "92 Monroe St",
+            "City": " Garfield",
+            "State": "NJ",
+            "Style": [
+                "Isshin Ryu Karate",
+                "Judo",
+                "Kendo",
+                "Kobudo",
+                "Shotokan Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 76,
+            "Name": "Blue Dragon School of Martial Arts",
+            "Phone": "201-385-3130",
+            "Zipcode": "07621",
+            "Street": "53 S. Washington Avenue",
+            "City": " Bergenfield",
+            "State": "NJ",
+            "Style": [
+                "Kung Fu"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 77,
+            "Name": "Perception Sword Academy",
+            "Phone": "201-290-2266",
+            "Zipcode": "07624",
+            "Street": "570 Piermont Road, Unit A-11",
+            "City": " Closter",
+            "State": "NJ",
+            "Style": [
+                "Siljun Dobup \"Real Sword Training\" - Sword Martial Arts"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 78,
+            "Name": "Master Choi's Tae Kwon DO",
+            "Phone": "201-689-8068",
+            "Zipcode": "07450",
+            "Street": "16 Prospect St",
+            "City": " Ridgewood",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 79,
+            "Name": "USA Martial Arts College",
+            "Phone": "201-447-9595",
+            "Zipcode": "07450",
+            "Street": "31 S Broad St",
+            "City": " Ridgewood",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do",
+                "Tai chi"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 80,
+            "Name": "Xcel Taekwondo Ctr",
+            "Phone": "201-288-8033",
+            "Zipcode": "07604",
+            "Street": "229 Boulevard",
+            "City": " Hasbrouck Heights",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 81,
+            "Name": "Steven S Lee Taekwondo Ctr",
+            "Phone": "201-288-8033",
+            "Zipcode": "07604",
+            "Street": "229 Boulevard",
+            "City": " Hasbrouck Heights",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 82,
+            "Name": "Ridgewood Judo",
+            "Phone": "201-444-5600",
+            "Zipcode": "07450",
+            "Street": "112 Oak Street",
+            "City": " Ridgewood",
+            "State": "NJ",
+            "Style": [
+                "Judo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 83,
+            "Name": "Black Belt Martial Arts Centers of NJ",
+            "Phone": "201-257-8139",
+            "Zipcode": "07604",
+            "Street": "197 Boulevard",
+            "City": " Hasbrouck Heights",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Judo",
+                "Karate",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 84,
+            "Name": "American Martial Arts Center Inc - Kim's Tae Kwon Do",
+            "Phone": "201-384-8484",
+            "Zipcode": "07628",
+            "Street": "2 E Madison Ave",
+            "City": " Dumont",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 85,
+            "Name": "Ryokukai Karate",
+            "Phone": "201-342-2669",
+            "Zipcode": "07603",
+            "Street": "24 River Rd",
+            "City": " Bogota",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 86,
+            "Name": "Performance Brazilian",
+            "Phone": "201-225-0099",
+            "Zipcode": "07410",
+            "Street": "23-12 Broadway",
+            "City": " Fair Lawn",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Judo",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 87,
+            "Name": "Aikido of North Jersey",
+            "Phone": "201-992-3013",
+            "Zipcode": "07666",
+            "Street": "219 Degraw Avenue",
+            "City": " Teaneck",
+            "State": "NJ",
+            "Style": [
+                "Aikido"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 88,
+            "Name": "Sidekick martial arts",
+            "Phone": "201-288-0220",
+            "Zipcode": "07604",
+            "Street": "155 route 17",
+            "City": " Hasbrouck Heights",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Karate",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 89,
+            "Name": "Street Combatives LLC",
+            "Phone": "973-337-1170",
+            "Zipcode": "07055",
+            "Street": "123 Passaic St",
+            "City": " Passaic",
+            "State": "NJ",
+            "Style": [
+                "Arnis\/Kali\/Escrima\/FMA",
+                "Jeet Kune do",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 90,
+            "Name": "Pro Tae Kwondo Inc",
+            "Phone": "201-229-9567",
+            "Zipcode": "07601",
+            "Street": "10 E Moonachie Rd",
+            "City": " Hackensack",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 91,
+            "Name": "Kim's Martial Art & Fitness",
+            "Phone": "201-670-4080",
+            "Zipcode": "07432",
+            "Street": "45 Godwin Ave",
+            "City": " Midland Park",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Tae Kwon Do",
+                "Tai chi"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 92,
+            "Name": "American Eagle Martial Arts & Kettlebell Academy",
+            "Phone": "201-612-1429",
+            "Zipcode": "07423",
+            "Street": "500 Barnett Place",
+            "City": " Ho-Ho-Kus",
+            "State": "NJ",
+            "Style": [
+                "Mixed Martial Arts (MMA)",
+                "Bando",
+                " Shamrock Submission Fighting",
+                " Russian Kettlebells"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 93,
+            "Name": "Peter Kwoks Kung Fu Academy",
+            "Phone": "973-519-2962",
+            "Zipcode": "07675",
+            "Street": "Bergen Street",
+            "City": " Westwood",
+            "State": "NJ",
+            "Style": [
+                "Kung Fu",
+                "Tai chi"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 94,
+            "Name": "Kokushi Dojo - New City Judo of Westwood, NJ",
+            "Phone": "201-788-9068",
+            "Zipcode": "07675",
+            "Street": "623 Broadway",
+            "City": " Westwood",
+            "State": "NJ",
+            "Style": [
+                "Capoeira",
+                "Judo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 95,
+            "Name": "Academy of Isshinryu Karate",
+            "Phone": "201-935-6467",
+            "Zipcode": "07075",
+            "Street": "227 Valley Blvd",
+            "City": " Wood-Ridge",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 96,
+            "Name": "Training Grounds Jiu-Jitsu & MMA",
+            "Phone": "201-290-2096",
+            "Zipcode": "07675",
+            "Street": "24 Booker Street",
+            "City": " Westwood",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Muay Thai",
+                "Wrestling"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 97,
+            "Name": "USA Martial Arts Academy",
+            "Phone": "201-440-9595",
+            "Zipcode": "07660",
+            "Street": "186 Main St",
+            "City": " Ridgefield Park",
+            "State": "NJ",
+            "Style": [
+                "Karate",
+                "Kick Boxing"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 98,
+            "Name": "Rising Sun Academy aka Team Rising Sun",
+            "Phone": "201-440-4466",
+            "Zipcode": "07660",
+            "Street": "173A Main Street",
+            "City": " Ridgefield Park",
+            "State": "NJ",
+            "Style": [
+                "Kick Boxing",
+                "Mixed Martial Arts (MMA)",
+                "Kempo Newaza Jitsu",
+                "BJJ"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 99,
+            "Name": "shorinjiryu shin Sei Kai Dojo",
+            "Phone": "201-753-1936",
+            "Zipcode": "07660",
+            "Street": "173 main street",
+            "City": " Ridgefield Park",
+            "State": "NJ",
+            "Style": [
+                "Shorin Ryu Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 100,
+            "Name": "Bushido Karate Fitns Training",
+            "Phone": "201-666-3550",
+            "Zipcode": "07642",
+            "Street": "118 Broadway",
+            "City": " Hillsdale",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 101,
+            "Name": "NJ-OPS KAPAP Self Defense Training",
+            "Phone": "201-446-0840",
+            "Zipcode": "07423",
+            "Street": "22 Hollywood Avenue",
+            "City": " Ho-Ho-Kus",
+            "State": "NJ",
+            "Style": [
+                "Krav Panim El Panim",
+                "KAPAP"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 102,
+            "Name": "Tiger Schulmann's Karate Ctr",
+            "Phone": "201-816-8443",
+            "Zipcode": "07631",
+            "Street": "39 Nathaniel Pl",
+            "City": " Englewood",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 103,
+            "Name": "Tiger's Claw Martial Arts Association",
+            "Phone": "201-263-1983",
+            "Zipcode": "07642",
+            "Street": "49 Prospect Pl, 2nd Fl",
+            "City": " Hillsdale",
+            "State": "NJ",
+            "Style": [
+                "Isshin Ryu Karate",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Kobudo",
+                "Kung Fu",
+                "Women's Self Defense",
+                "Women's Boot Camp"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 104,
+            "Name": "Wheeler's Martial Arts",
+            "Phone": "201-594-1880",
+            "Zipcode": "07642",
+            "Street": "51 Prospect Pl",
+            "City": " Hillsdale",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 105,
+            "Name": "Academy of Goshin DO Karate",
+            "Phone": "201-896-1175",
+            "Zipcode": "07073",
+            "Street": "748 Paterson Ave",
+            "City": " East Rutherford",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 106,
+            "Name": "Tiger's Claw Martial Arts",
+            "Phone": "201-263-1983",
+            "Zipcode": "07642",
+            "Street": "319 Knickerbocker Ave, 2nd Fl",
+            "City": " Hillsdale",
+            "State": "NJ",
+            "Style": [
+                "Isshin Ryu Karate",
+                "Kobudo",
+                "Kung Fu",
+                "Ninjutsu\/Ninpo",
+                "Children",
+                " Teen & Adult Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 107,
+            "Name": "Ata Black Belt Academy",
+            "Phone": "201-569-0120",
+            "Zipcode": "07631",
+            "Street": "12 Engle St #102",
+            "City": " Englewood",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 108,
+            "Name": "DE Pasquale School-Jiu Jitsu",
+            "Phone": "201-666-7100",
+            "Zipcode": "07675",
+            "Street": "187 Rivervale Rd",
+            "City": " River Vale",
+            "State": "NJ",
+            "Style": [
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 109,
+            "Name": "Tenafly Shukokai Karate",
+            "Phone": "201-569-5200",
+            "Zipcode": "07670",
+            "Street": "31 Prospect Ter",
+            "City": " Tenafly",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 110,
+            "Name": "Maru Tae Kwon Do, Martial Arts",
+            "Phone": "201-227-6153",
+            "Zipcode": "07626",
+            "Street": "5 legion dr",
+            "City": " Cresskill",
+            "State": "NJ",
+            "Style": [
+                "Aikido",
+                "Hapkido",
+                "Judo",
+                "Mixed Martial Arts (MMA)",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 111,
+            "Name": "Yee's Hung GA Intl Kung Fu",
+            "Phone": "201-964-9254",
+            "Zipcode": "07072",
+            "Street": "410 Hackensack St",
+            "City": " Carlstadt",
+            "State": "NJ",
+            "Style": [
+                "Kung Fu"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 112,
+            "Name": "Day Han Martial Arts Academy",
+            "Phone": "201-944-7434",
+            "Zipcode": "07605",
+            "Street": "329 Broad Ave",
+            "City": " Leonia",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Karate",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 113,
+            "Name": "Yonezawa Daito-Ryu Aiki Jujutsu",
+            "Phone": "201-460-8477",
+            "Zipcode": "07073",
+            "Street": "133 Uhland Street",
+            "City": " East Rutherford",
+            "State": "NJ",
+            "Style": [
+                "Aiki Jitsu (Aikijutsu)",
+                "Kendo",
+                "Daito-Ryu"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 114,
+            "Name": "Pro Martial Arts - Waldwick",
+            "Phone": "201-857-5111",
+            "Zipcode": "07463",
+            "Street": "140 Franklin Turnpike",
+            "City": " Waldwick",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Kick Boxing",
+                "Tae Kwon Do",
+                "Tang Soo Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 115,
+            "Name": "Mr Lee Champion Taekwon-DO",
+            "Phone": "201-592-1220",
+            "Zipcode": "07650",
+            "Street": "263 Broad Ave",
+            "City": " Palisades Park",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 116,
+            "Name": "Hua Mountain Kung Fu",
+            "Phone": "201-438-9902",
+            "Zipcode": "07070",
+            "Street": "15 Park Ave",
+            "City": " Rutherford",
+            "State": "NJ",
+            "Style": [
+                "Kung Fu",
+                "Tai chi",
+                "TaiJiQuan"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 117,
+            "Name": "The DOJO",
+            "Phone": "201-933-3050",
+            "Zipcode": "07070",
+            "Street": "52 Park Ave",
+            "City": " Rutherford",
+            "State": "NJ",
+            "Style": [
+                "Karate"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 118,
+            "Name": "Tiger Kim's Taekwondo Center",
+            "Phone": "201-767-7171",
+            "Zipcode": "07624",
+            "Street": "11 Homans Ave",
+            "City": " Closter",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 119,
+            "Name": "CGI Holistic Fitness",
+            "Phone": "201-784-1300",
+            "Zipcode": "07624",
+            "Street": "111 Homans Ave",
+            "City": " Closter",
+            "State": "NJ",
+            "Style": [
+                "Kick Boxing",
+                "Kung Fu",
+                "Tai chi"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 120,
+            "Name": "World Martial Arts Institute",
+            "Phone": "201-461-6444",
+            "Zipcode": "07650",
+            "Street": "534 Bergen Blvd.",
+            "City": " Palisades Park",
+            "State": "NJ",
+            "Style": [
+                "Kendo",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 121,
+            "Name": "Ho San Tae Kwon DO Inc",
+            "Phone": "201-461-9288",
+            "Zipcode": "07024",
+            "Street": "2011 Lemoine Ave",
+            "City": " Fort Lee",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 122,
+            "Name": "Steven's Karate & Martial Arts",
+            "Phone": "201-327-7702",
+            "Zipcode": "07401",
+            "Street": "37 W Allendale Ave",
+            "City": " Allendale",
+            "State": "NJ",
+            "Style": [
+                "Brazilian Jiu-jitsu",
+                "Karate",
+                "Kick Boxing",
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 123,
+            "Name": "Team USA Tae-Kwon-DO Fitness",
+            "Phone": "201-947-8994",
+            "Zipcode": "07024",
+            "Street": "1580 Lemoine Ave #2",
+            "City": " Fort Lee",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 124,
+            "Name": "Aikido of Ramapo Valley",
+            "Phone": "201-891-0900",
+            "Zipcode": "07481",
+            "Street": "400 W Main St",
+            "City": " Wyckoff",
+            "State": "NJ",
+            "Style": [
+                "Aikido"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 125,
+            "Name": "Sun Hang Tae Kwon DO",
+            "Phone": "201-358-1100",
+            "Zipcode": "07675",
+            "Street": "52 Bi State Plz",
+            "City": " Old Tappan",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 126,
+            "Name": "Bai's Tae Kwon DO",
+            "Phone": "201-307-8922",
+            "Zipcode": "07656",
+            "Street": "168 Kinderkamack Rd",
+            "City": " Park Ridge",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 127,
+            "Name": "Power Martial Arts",
+            "Phone": "201-224-5789",
+            "Zipcode": "07024",
+            "Street": "1282 Palisade Ave",
+            "City": " Fort Lee",
+            "State": "NJ",
+            "Style": [
+                "Hapkido",
+                "Judo",
+                "Karate",
+                "Mixed Martial Arts (MMA)",
+                "Tae Kwon Do",
+                "Tai chi"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 128,
+            "Name": "Kokushi Dojo",
+            "Phone": "201-575-0669",
+            "Zipcode": "07481",
+            "Street": "Wyckoff family YMCA",
+            "City": " Wyckoff",
+            "State": "NJ",
+            "Style": [
+                "Aiki Jitsu (Aikijutsu)",
+                "Aikido",
+                "Brazilian Jiu-jitsu",
+                "Goju Ryu Karate",
+                "Jiu-Jitsu (Jujutsu\/Jujitsu)",
+                "Judo"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 129,
+            "Name": "Northern Valley Martial Arts",
+            "Phone": "201-784-2411",
+            "Zipcode": "07648",
+            "Street": "55 Walnut Street , Suite 103",
+            "City": " Norwood",
+            "State": "NJ",
+            "Style": [
+                "Mixed Martial Arts (MMA)"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        },
+        {
+            "index": 130,
+            "Name": "Blue Dragons Tae Kwon DO",
+            "Phone": "201-939-3934",
+            "Zipcode": "07071",
+            "Street": "152 Ridge Rd",
+            "City": " Lyndhurst",
+            "State": "NJ",
+            "Style": [
+                "Tae Kwon Do"
+            ],
+            "lat": 39.4209654,
+            "lng": -74.5275233
+        }
+    ]
+}
