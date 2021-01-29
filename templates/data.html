@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<title>Where Are The</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="../static/css/styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://img.olympicchannel.com/images/image/private/t_16-9_1920/f_auto/v1538355600/primary/crf29zj3vasbaf02kchf");
+  min-height: 80%;
+}
+
+.menu {
+  display: none;
+}
+
+</style>
+<body>
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="/" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/map" class="w3-button w3-block w3-black">MAP</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/data" class="w3-button w3-block w3-black">DATA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/about" class="w3-button w3-block w3-black">ABOUT US</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-tag w3-wide" style="font-size:60px">New Jersey State Dojo Finder 2021</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+    <div class="container">
+        <div class="row margin-top-50">
+          <div class="col-md-2">
+            <aside class="filters">
+              <div class="panel panel-default">
+                <div class="panel-heading">Filter Search</div>
+                <div class="panel-body">
+                  <form>
+                    <div class="form-group">
+                      <ul class="list-group" id="filters">
+                        <li class="filter list-group-item">
+                          <label for="date">Enter a County</label>
+                          <input class="form-control" id="datetime" type="text" placeholder="Atlantic County">
+                        </li>
+                      </ul>
+                    </div>
+                    <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
+                    <button id="reset-btn" type="button" class="btn btn-default">Reset Table</button>
+                  </form>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div class="col-md-10">
+            <div id="table-area" class="">
+              <table id="ufo-table" class="table table-striped">
+                <thead>
+                  <tr>
+                    <th class="table-head">Name</th>
+                    <th class="table-head">Phone</th>
+                    <th class="table-head">Zipcode</th>
+                    <th class="table-head">Street</th>
+                    <th class="table-head">City</th>
+                    <th class="table-head">State</th>
+                    <th class="table-head">Style</th>
+                    <th class="table-head">Latitude</th>
+                    <th class="table-head">Longitude</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://media1.tenor.com/images/d71b9347b86f4a099be6f17870594e6b/tenor.gif?itemid=13052525" title="W3.CSS" target="_blank" class="w3-hover-text-green">Crouching Tiger Hidden Data</a></p>
+</footer>
+
+</body>
+</html>

@@ -15,10 +15,11 @@ def home():
 @app.route('/map')
 def map():
     print("responding to the home route: ", datetime.datetime.now())
-    return render_template("")
+    return render_template("index2.html")
 
 # Will pull the data for use.
-@app.route('/dojo_api'):
+@app.route('/dojo_api')
+def dojo():
     ##TODO
     dank = 1
     return dank
@@ -27,7 +28,7 @@ def map():
 @app.route('/data')
 def data():
     print("responding to the home route: ", datetime.datetime.now())
-    return render_template("")
+    return render_template("data.html")
 
 # Defines the route to the about us route.
 @app.route('/about')
