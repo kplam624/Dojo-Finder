@@ -19,7 +19,7 @@ var data = [
              "Joint Lock","Joint Lock","Joint Lock","Joint Lock","Joint Lock",
              "Pinning Tech", "Pinning Tech","Pinning Tech"           
             ],
-  "values":  [100, 20, 20, 20, 
+  "values":  [100, 33, 33, 34, 
               100, 20, 20, 20,    
               1,10,1,1,
               1,1,1,1,
