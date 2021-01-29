@@ -26,7 +26,7 @@ var myMap = L.map("map", {
         console.log(markerpoint);
 
         L.marker(markerpoint)
-        .bindPopup("<h1>" + location.Name + "</h1>")
+        .bindPopup("<h1>" + location.Name + " " + location.Phone + " " + location.Zipcode + " " + location.Street + " " + location.City + " "+ location.County + " " + location.State + "</h1>")
         .addTo(myMap);
      }
     }); 
