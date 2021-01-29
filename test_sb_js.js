@@ -17,16 +17,16 @@ var data = [
              "Other Strikes", "Other Strikes","Other Strikes","Other Strikes","Other Strikes",
              "Throwing","Throwing","Throwing","Throwing","Throwing",
              "Joint Lock","Joint Lock","Joint Lock","Joint Lock","Joint Lock",
-             "Pinning Tech", "Pinning Tech","Pinning Tech",             
+             "Pinning Tech", "Pinning Tech","Pinning Tech"           
             ],
   "values":  [100, 20, 20, 20, 
               100, 20, 20, 20,    
+              1,10,1,1,
               1,1,1,1,
               1,1,1,1,
+              1,10,1,1,
               1,1,1,1,
-              1,1,1,1,
-              1,1,1,1,
-              1,1,1,1, ],
+              1,10,1,1, ],
     "leaf": {"opacity": 0.4},
     "marker": {"line": {"width": 2}},
     "branchvalues": 'total'
@@ -34,6 +34,8 @@ var data = [
 
 var layout = {
   "margin": {"l": 0, "r": 0, "b": 0, "t": 0},
+  width: 600,
+  height: 600
 };
 
 
