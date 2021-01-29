@@ -28,3 +28,8 @@ def data():
 def about():
     print("responding to the home route: ", datetime.datetime.now())
     return render_template("")
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
+print("finished running app.py")

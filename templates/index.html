@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<title>Where Are The</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://img.olympicchannel.com/images/image/private/t_16-9_1920/f_auto/v1538355600/primary/crf29zj3vasbaf02kchf");
+  min-height: 80%;
+}
+
+.menu {
+  display: none;
+}
+
+</style>
+<body>
+
+<!-- Navigation Bar -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="/" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/map" class="w3-button w3-block w3-black">MAP</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/data" class="w3-button w3-block w3-black">DATA</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="/about_us" class="w3-button w3-block w3-black">ABOUT US</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-center">
+    <span class="w3-tag w3-wide" style="font-size:60px">New Jersey State Dojo Finder 2021</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+  <!-- Starburst Functionality -->
+<div class="w3-container" id="starburst">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Learn About The Wide Range Of Styles</span></h5>
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">You're Here So What Next?</span></h5>
+    <p>Do you want to learn how to fight but don’t know where to start? There’s dojos all around you but you have no idea what they teach and which style of fighting is right for you. That’s where we come in. You can either start by browsing the styles above to learn which one will best serve your interests or search your address below to see what is offered in your area.</p>
+    <p>Wherever you are in your search we can help. So pick a style or search your location, either way congrats on taking the first step to start kicking ass and taking names.</p>
+  </div>
+</div>
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE ARE THE FREAKING DOJOS!</span></h5>
+    <div class="w3-content w3-center" style="padding-bottom:32px;">
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn w3-deep-orange">See Whats Available In Your County</button>
+        <div id="myDropdown" class="dropdown-content w3-white">
+          <a href="#">Atlantic</a>
+          <a href="#">Bergen</a>
+          <a href="#">Burlington</a>
+          <a href="#">Camden</a>
+          <a href="#">Cape May</a>
+          <a href="#">Cumberland</a>
+          <a href="#">Essex</a>
+          <a href="#">Gloucester</a>
+          <a href="#">Hudson</a>
+          <a href="#">Hunterdon</a>
+          <a href="#">Mercer</a>
+          <a href="#">Middlesex</a>
+          <a href="#">Monmouth</a>
+          <a href="#">Morris</a>
+          <a href="#">Ocean</a>
+          <a href="#">Passaic</a>
+          <a href="#">Salem</a>
+          <a href="#">Somerset</a>
+          <a href="#">Sussex</a>
+          <a href="#">Union</a>
+          <a href="#">Warren</a>
+        </div>
+      </div>
+    <img src="..\Resources\LostTourist.JPG" class="w3-image" style="width:100%">
+    <p><strong>FIND THEM:</strong> Search Your Current Latitude and Longitude To Find A Class Nearby!</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Latitude" required name="Latitude"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Longitude" required name="Longitude"></p>
+      <p><button class="w3-button w3-black" type="submit">Submit Location</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="https://media1.tenor.com/images/d71b9347b86f4a099be6f17870594e6b/tenor.gif?itemid=13052525" title="W3.CSS" target="_blank" class="w3-hover-text-green">Crouching Tiger Hidden Data</a></p>
+</footer>
+
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+</body>
+</html>
