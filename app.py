@@ -17,6 +17,12 @@ def map():
     print("responding to the home route: ", datetime.datetime.now())
     return render_template("")
 
+# Will pull the data for use.
+@app.route('/dojo_api'):
+    ##TODO
+    dank = 1
+    return dank
+
 # Defines the route to the data route
 @app.route('/data')
 def data():
