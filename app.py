@@ -24,10 +24,10 @@ def data():
     return render_template("")
 
 # Defines the route to the about us route.
-@app.route('/about_us')
+@app.route('/about')
 def about():
     print("responding to the home route: ", datetime.datetime.now())
-    return render_template("")
+    return render_template("aboutusFINAL.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
