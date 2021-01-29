@@ -1,6 +1,6 @@
 var data = [
 {
-  "type": "sunburst",
+  "type": "sunburst", 
   "labels": ["Strikes", "Punching", "Kicking", "Other Strikes", 
             "Grappling", "Throwing", "Joint Lock", "Pinning Tech",
             "Boxing", "Wing CHun", "Karate",
@@ -19,14 +19,14 @@ var data = [
              "Joint Lock","Joint Lock","Joint Lock","Joint Lock","Joint Lock",
              "Pinning Tech", "Pinning Tech","Pinning Tech"           
             ],
-  "values":  [100, 33, 33, 34, 
-              100, 20, 20, 20,    
-              1,10,1,1,
-              1,1,1,1,
-              1,1,1,1,
-              1,10,1,1,
-              1,1,1,1,
-              1,10,1,1, ],
+  "values":  [10000, 1000, 1000, 1000, 
+              10000, 1000, 1000, 1000,    
+              5,5,5,5,
+              10,10,10,5,
+              5,5,5,15,
+              285,223,198,149,
+              121,119,82,59,
+              52,44,44,42, ],
     "leaf": {"opacity": 0.4},
     "marker": {"line": {"width": 2}},
     "branchvalues": 'total'
