@@ -18,7 +18,7 @@ def home():
 # Defines the route to the map route.
 @app.route('/map')
 def map():
-    print("responding to the home route: ", datetime.datetime.now())
+    print("responding to the map route: ", datetime.datetime.now())
     return render_template("index2.html")
 
 # Will pull the data for use.
@@ -39,13 +39,13 @@ def dojo():
 # Defines the route to the data route
 @app.route('/data')
 def data():
-    print("responding to the home route: ", datetime.datetime.now())
+    print("responding to the data route: ", datetime.datetime.now())
     return render_template("data.html")
 
 # Defines the route to the about us route.
 @app.route('/about')
 def about():
-    print("responding to the home route: ", datetime.datetime.now())
+    print("responding to the about route: ", datetime.datetime.now())
     return render_template("aboutusFINAL.html")
 
 if __name__ == "__main__":

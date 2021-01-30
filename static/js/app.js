@@ -1,7 +1,3 @@
-// if (!data3){
-//     console.log('It is undefined')
-// }
-
 // Read the json file.
 d3.json('/dojoapi', function(data){
     console.log(data)

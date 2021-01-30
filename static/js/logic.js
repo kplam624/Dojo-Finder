@@ -1,8 +1,11 @@
+// Initializes a variable called start point.
 var startPoint
 
+// Pulls the variables from the storage.js
 data1 = sessionStorage.getItem('lat');
 data2 = sessionStorage.getItem('lng');
 
+// Does a check on the two variables to create the starting point and magnification.
 if (!data1 || !data2){
   startPoint = [40.0583, -74.4057];
   mag = 8
@@ -12,8 +15,10 @@ else{
   mag = 13
 }
 
+// Shows the values of the ma
 console.log(mag)
 console.log(startPoint)
+
   // An array containing each city's name, location, and population
   d3.json ("/dojoapi", function(data) {
     var locations = data;

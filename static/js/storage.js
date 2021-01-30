@@ -1,10 +1,16 @@
+// Calls the form.
 var form = d3.select("form");
 
+// Event listener for form
 form.on("submit",runEnter)
 
+// Creates a function.
 function runEnter() {
+
+    // Prevent the default.
     d3.event.preventDefault();
 
+    // Creates the variables to use.
     var lat;
     var lng;
 
@@ -19,16 +25,16 @@ function runEnter() {
     var inputLng = d3.select("#longitude");
     var sessLng = inputLng.property("value");
 
+    // Sets the longitude variable.
     lng = sessLng;
 
+    // Creates a sessionStorage instance
     sessionStorage.setItem('lat', String(lat));
     sessionStorage.setItem('lng', String(lng));
 
+    // Pulls the value for each session storage.
     data1 = sessionStorage.getItem('lat');
     data2 = sessionStorage.getItem('lng');
-    
-    console.log(data1);
-    console.log(data2);
 };
 
 // When the user inputs and selects outside the form.
@@ -36,8 +42,11 @@ form.on("change",runChange);
 
 // Function that will keep the form value saved.
 function runChange() {
+
+    // Prevent the default.
     d3.event.preventDefault();
 
+    // Creates the variables to use.
     var lat;
     var lng;
 
@@ -52,20 +61,19 @@ function runChange() {
     var inputLng = d3.select("#longitude");
     var sessLng = inputLng.property("value");
 
+    // Sets the longitude variable.
     lng = sessLng;
 
+    // Pulls the value for each session storage.
     sessionStorage.setItem('lat', String(lat));
     sessionStorage.setItem('lng', String(lng));
 
+    // Pulls the value for each session storage.
     data1 = sessionStorage.getItem('lat');
     data2 = sessionStorage.getItem('lng');
 };
 
-function myFunction(newCounty){
-    data3 = sessionStorage.setItem('county', String(newCounty))
-    console.log(data3)
-}
-
+// Setting the data to the session storage.
 data1 = sessionStorage.getItem('lat');
 data2 = sessionStorage.getItem('lng');
 
