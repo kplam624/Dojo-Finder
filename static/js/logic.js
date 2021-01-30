@@ -11,7 +11,7 @@ if (!data1 || !data2){
   mag = 8
 }
 else{
-  startPoint = [parseInt(data1),parseInt(data2)]
+  startPoint = [parseFloat(data1),parseFloat(data2)]
   mag = 13
 }
 
