@@ -24,17 +24,17 @@ def map():
 # Will pull the data for use.
 @app.route('/dojoapi')
 def dojo():
-    client = MongoClient(mongo_url)
-    
-    db = client['dojo_db']
-    
-    collection = db['dojos']
-    
-    results = collection.find()
-    
-    dojo_data_from_db = [{'name': result['Name'], 'phone': result['Phone'], 'zipcode': result['Zipcode'],'street': result['Street'],'city': result['City'],'state': result['State'], 'style': result['Style'],'county': result['County'], 'lat': result['lat'],'lng': result['lng']} for result in results]
+        client = MongoClient(mongo_url)
+        
+        db = client['dojo_db']
+        
+        collection = db['dojos']
+        
+        results = collection.find()
+        
+        dojo_data_from_db = [{'name': result['Name'], 'phone': result['Phone'], 'zipcode': result['Zipcode'],'street': result['Street'],'city': result['City'],'state': result['State'], 'style': result['Style'],'county': result['County'], 'lat': result['lat'],'lng': result['lng']} for result in results]
 
-    return jsonify(dojo_data_from_db)
+        return jsonify(dojo_data_from_db)
 
 # Defines the route to the data route
 @app.route('/data')
