@@ -1,4 +1,4 @@
-var myPlot = document.getElementById('myDiv'),
+var myPlot = document.getElementById('starburst'),
     hoverInfo = document.getElementById('hoverinfo');
 
 
@@ -66,10 +66,6 @@ myPlot
             "<br> <b>Parent: </b>" +
             d.parent +
             "<br><b>Description: </b>" +
-             //d.meta +
-            //  "<br><b>DescriptionIBU: </b>" +
-            //  d.customdata +
-            // "<br><br>" +
             d.hovertext
                     );
         });
