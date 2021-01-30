@@ -59,10 +59,12 @@ function runChange() {
 
     data1 = sessionStorage.getItem('lat');
     data2 = sessionStorage.getItem('lng');
-    
-    console.log(data1);
-    console.log(data2);
 };
+
+function myFunction(newCounty){
+    data3 = sessionStorage.setItem('county', String(newCounty))
+    console.log(data3)
+}
 
 data1 = sessionStorage.getItem('lat');
 data2 = sessionStorage.getItem('lng');
