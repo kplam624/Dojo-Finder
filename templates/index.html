@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="../static/css/styles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+<script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
 <style>
 
 body, html {
@@ -57,10 +58,12 @@ body, html {
 <div class="w3-sand w3-grayscale w3-large">
 
   <!-- Starburst Functionality -->
-<div class="w3-container" id="starburst">
+<div class="w3-container">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">Learn About The Wide Range Of Styles</span></h5>
   </div>
+  <div id="starburst"></div>
+  <div id="hoverinfo" style="margin-left:220px;"></div>
 </div>
 
 <!-- About Container -->
@@ -144,6 +147,7 @@ body, html {
   }
   </script>
 <script type="text/javascript" src= "../static/js/storage.js"></script>
-
+<script type="text/javascript" src= "../static/js/data.js"></script>
+<script type="text/javascript" src= "../static/js/sunburst.js"></script>
 </body>
 </html>

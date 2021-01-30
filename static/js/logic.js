@@ -9,7 +9,7 @@ if (!data1 || !data2){
 }
 else{
   startPoint = [parseInt(data1),parseInt(data2)]
-  mag = 12
+  mag = 13
 }
 
 console.log(mag)
