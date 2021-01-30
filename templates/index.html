@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="../static/css/styles.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
 <style>
 
 body, html {
@@ -106,9 +107,9 @@ body, html {
     <img src="../static/img/LostTourist.JPG" class="w3-image" style="width:100%">
     <p><strong>FIND THEM:</strong> Search Your Current Latitude and Longitude To Find A Class Nearby!</p>
     <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Latitude" required name="Latitude"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Longitude" required name="Longitude"></p>
-      <p><button class="w3-button w3-black" type="submit">Submit Location</button></p>
+      <p><input id ="latitude" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Latitude" required name="Latitude"></p>
+      <p><input id ="longitude" class="w3-input w3-padding-16 w3-border" type="text" placeholder="Longitude" required name="Longitude"></p>
+      <p><button class="w3-button w3-black" type="submit"><a href='/map'>Submit Location</a></button></p>
     </form>
   </div>
 </div>
@@ -142,6 +143,7 @@ body, html {
     }
   }
   </script>
+<script type="text/javascript" src= "../static/js/storage.js"></script>
 
 </body>
 </html>

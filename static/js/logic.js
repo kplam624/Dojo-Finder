@@ -1,11 +1,27 @@
+var startPoint
+
+data1 = sessionStorage.getItem('lat');
+data2 = sessionStorage.getItem('lng');
+
+if (!data1 || !data2){
+  startPoint = [40.0583, -74.4057];
+  mag = 8
+}
+else{
+  startPoint = [parseInt(data1),parseInt(data2)]
+  mag = 12
+}
+
+console.log(mag)
+console.log(startPoint)
   // An array containing each city's name, location, and population
   d3.json ("/dojoapi", function(data) {
     var locations = data;
   
   // Create a map object
   var myMap = L.map("map", {
-  center: [40.0583, -74.4057],
-  zoom: 8
+  center: startPoint,
+  zoom: mag
 });
 
 // Add a tile layer
@@ -24,10 +40,10 @@
           var location = locations[i];
 
           var markerpoint = [location['lat'], location['lng']];
-          console.log(markerpoint);
+          // console.log(markerpoint);
 
           L.marker(markerpoint)
-          .bindPopup("<h3>"+ location.name + "<h3>Phone: " + location.phone + "</h3><h3>" + location.street + ", " + location.city + ", " + location.zipcode +"<h3>County: " + location.county + "</h3><h3>State: " + location.state + "</h3>")
+          .bindPopup("<h5>"+ location.name + "<h5>Phone: " + location.phone + "</h5><h5>" + location.street + ", " + location.city + ", " + location.zipcode +"<h5>County: " + location.county + "</h5><h5>State: " + location.state + "</h5>")
           .addTo(myMap);
       }
-      }); 
+    });
