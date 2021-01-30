@@ -1,9 +1,13 @@
 from flask import Flask, jsonify, render_template, redirect
 import datetime
 from flask_pymongo import PyMongo
+from pymongo import MongoClient
 
 # Create an instance of Flask
 app = Flask(__name__)
+
+
+mongo_url = "mongodb://localhost:27017"
 
 # Defines the route to the home route.
 @app.route('/')
@@ -18,11 +22,19 @@ def map():
     return render_template("index2.html")
 
 # Will pull the data for use.
-@app.route('/dojo_api')
+@app.route('/dojoapi')
 def dojo():
-    ##TODO
-    dank = 1
-    return dank
+    client = MongoClient(mongo_url)
+    
+    db = client['dojo_db']
+    
+    collection = db['dojos']
+    
+    results = collection.find()
+    
+    dojo_data_from_db = [{'name': result['Name'], 'phone': result['Phone'], 'zipcode': result['Zipcode'],'street': result['Street'],'city': result['City'],'state': result['State'], 'style': result['Style'],'county': result['County'], 'lat': result['lat'],'lng': result['lng']} for result in results]
+
+    return jsonify(dojo_data_from_db)
 
 # Defines the route to the data route
 @app.route('/data')

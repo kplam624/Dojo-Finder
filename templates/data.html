@@ -3,8 +3,12 @@
 <title>Where Are The</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <link rel="stylesheet" href="../static/css/styles.css">
+
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
 <style>
 
 body, html {
@@ -67,7 +71,7 @@ body, html {
                       <ul class="list-group" id="filters">
                         <li class="filter list-group-item">
                           <label for="date">Enter a County</label>
-                          <input class="form-control" id="datetime" type="text" placeholder="Atlantic County">
+                          <input class="form-control" id="county" type="text" placeholder="Atlantic County">
                         </li>
                       </ul>
                     </div>
@@ -80,18 +84,18 @@ body, html {
           </div>
           <div class="col-md-10">
             <div id="table-area" class="">
-              <table id="ufo-table" class="table table-striped">
+              <table border = .5 id="dojo-table" class="table table-striped">
                 <thead>
                   <tr>
-                    <th class="table-head">Name</th>
-                    <th class="table-head">Phone</th>
-                    <th class="table-head">Zipcode</th>
-                    <th class="table-head">Street</th>
                     <th class="table-head">City</th>
-                    <th class="table-head">State</th>
-                    <th class="table-head">Style</th>
+                    <th class="table-head">County</th>
                     <th class="table-head">Latitude</th>
                     <th class="table-head">Longitude</th>
+                    <th class="table-head">Name</th>
+                    <th class="table-head">Phone</th>
+                    <th class="table-head">State</th>
+                    <th class="table-head">Address</th>
+                    <th class="table-head">Style</th>
                   </tr>
                 </thead>
                 <tbody></tbody>
@@ -106,5 +110,7 @@ body, html {
   <p>Powered by <a href="https://media1.tenor.com/images/d71b9347b86f4a099be6f17870594e6b/tenor.gif?itemid=13052525" title="W3.CSS" target="_blank" class="w3-hover-text-green">Crouching Tiger Hidden Data</a></p>
 </footer>
 
+  <!-- Our JS -->
+  <script type="text/javascript" src="../static/js/app.js"></script>
 </body>
 </html>
