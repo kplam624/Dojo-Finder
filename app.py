@@ -1,13 +1,16 @@
 from flask import Flask, jsonify, render_template, redirect
 import datetime
-# from flask_pymongo import PyMongo
+import os
 from pymongo import MongoClient
 
 # Create an instance of Flask
 app = Flask(__name__)
 
+if 'DATABASE_URL' in os.environ:
+    mongo_url = os.environ['MONGO_URL']
 
-mongo_url = "mongodb://localhost:27017"
+else:
+    mongo_url = "mongodb://localhost:27017"
 
 # Defines the route to the home route.
 @app.route('/')
