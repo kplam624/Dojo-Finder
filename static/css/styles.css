@@ -332,7 +332,7 @@ html {
   }
 }
 
-.dojo-form {
+/* .dojo-form {
   margin-top: 50px;
 }
 
@@ -350,18 +350,18 @@ select {
   padding: 8px;
   color: #8e979f;
   outline: none;
-}
+} */
 
-#table-area th {
+/* #table-area th {
   text-align: center;
-}
+} */
 
-#table-area th:first-child,
+/* #table-area th:first-child,
 #table-area th:nth-child(2),
 #table-area th:nth-child(6) {
   min-width: 70px;
-}
+} */
 
-#table-area {
-  width: 100%
-}
+/* #table-area {
+  width: 80%
+} */
