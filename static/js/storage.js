@@ -73,6 +73,8 @@ function runChange() {
     data2 = sessionStorage.getItem('lng');
 };
 
+//SHH its a secret
+API_KEY = 'pk.eyJ1Ijoia3BsYW02MjQiLCJhIjoiY2tqdW85emxoMGFkMzJ0cXppb2lnMGRvcCJ9.GxyMhx1CNAMxZXmJufDmDQ'
 // Setting the data to the session storage.
 data1 = sessionStorage.getItem('lat');
 data2 = sessionStorage.getItem('lng');
