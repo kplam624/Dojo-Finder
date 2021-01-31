@@ -24,7 +24,7 @@ def home():
 @app.route('/map')
 def map():
     print("responding to the map route: ", datetime.datetime.now())
-    return render_template("index2.html")
+    return render_template("map.html")
 
 # Will pull the data for use.
 @app.route('/dojoapi')

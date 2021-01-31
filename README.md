@@ -1,4 +1,4 @@
-# Project-2
+# Dojo-Finder
 
 ## Members
 
@@ -24,6 +24,9 @@ The purpose of this project is to create an application for users to find martia
 * Python
 * Flask
 * Beautifulsoup
+* Mongodb
+* pandas
+* splinter
 
 ## Process
 
@@ -31,8 +34,13 @@ The purpose of this project is to create an application for users to find martia
 
 TODO
 
-## Logs
+## Heroku
 
 ---
 
-1/16/21 - Brainstormed ideas for the project! Will do research and come back on 1/19/21 to discuss results and submit proposal.
+if you would like to see the webpage in action without the set up visit [this](https://dojo-finder.herokuapp.com/)
+
+## Improvements
+
+---
+
