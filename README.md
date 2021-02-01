@@ -5,10 +5,11 @@
 ---
 
 * Ben Kramskoi - Programmer/ Analyst
-* Buddy Slater - Programmer/ Analyst
-* Nehemiah Porter - Programmer/ Analyst
-* Jessy Thomas - Programmer/ Analyst
 * Kevin Lam - Programmer/ Analyst
+* Nehemiah Porter - Programmer/ Analyst
+* Buddy Slater - Programmer/ Analyst
+* Jessy Thomas - Programmer/ Analyst
+
 
 ## Purpose
 
