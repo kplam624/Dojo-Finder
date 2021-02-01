@@ -55,13 +55,10 @@ def dojo():
 
         return jsonify(dojo_data_from_db)
 
-@app.route('/api_key')
+@app.route('/apikey')
 def key_pull():
-    heroku = []
-    
-    api_key = {'pull' : key}
-    
-    heroku.append(api_key)
+
+    heroku = [{'pull' : key}]
 
     return jsonify(heroku)
 
