@@ -68,6 +68,7 @@ As we look to continuously improve, our future versions may seek to:
 1. Link the New Jersey Counties dropdown on the current "Home" Page to more defined location on the "Map" Page.
 2. Refine our County search or filter options on the website's "Data" Page in a more advanced manner.
 3. Continuously take in feedback and update our website based on suggestions from our users.
+4. Update the "sunburst" of knowledge tool to adapt to popular styles in states outside of NJ as other states are added in. 
 
 Stay tuned!!
 
