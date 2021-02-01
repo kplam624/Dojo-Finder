@@ -64,7 +64,7 @@ To check out the webpage in action without the set up visit: https://dojo-finder
 
 ---
 
-As we look to continuously improve, our future versions will seek to: 
+As we look to continuously improve, our future versions may seek to: 
 1. Link the New Jersey Counties dropdpown to more defined location on the map.
 2. Refine our County search on the website's "Data" page. 
 3. Update our site based on suggestions from our users. 
