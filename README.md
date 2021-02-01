@@ -65,9 +65,9 @@ To check out the webpage in action without the set up visit: https://dojo-finder
 ---
 
 As we look to continuously improve, our future versions may seek to: 
-1. Link the New Jersey Counties dropdpown to more defined location on the map.
-2. Refine our County search on the website's "Data" page. 
-3. Update our site based on suggestions from our users. 
+1. Link the New Jersey Counties dropdown on the current "Home" Page to more defined location on the "Map" Page.
+2. Refine our County search or filter options on the website's "Data" Page in a more advanced manner. 
+3. Continuously take in feedback and update our website based on suggestions from our users. 
 
 Stay tuned!! 
 
@@ -78,7 +78,7 @@ Stay tuned!!
 
 * Ben Kramskoi - Programmer/ Analyst
 * Kevin Lam - Programmer/ Analyst
-* Nehemiah Porter - Programmer/ Analyst
+* Nehemiah Burney-Porter - Programmer/ Analyst
 * Buddy Slater - Programmer/ Analyst
 * Jessy Thomas - Programmer/ Analyst
 
