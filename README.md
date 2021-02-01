@@ -24,7 +24,7 @@ Do you want to learn how to fight and defend yourself but don’t know where to 
 
 As the purpose of these efforts is to create an application for users to find a Martial Arts schools near them, or at a preferred location, this site will help unlock the secret "code" of Martial Arts for both beginners and continuing Martial Arts students.
 
-For those looking to learn more about the different styles and types of Martial Arts available in search of dojos to support, just navigate to our "Sunburst" of knowledge that will provide the user with more info on the various techniques such as strikes (punching, kicking),  grappling (throwing, pinning), Hybrid, etc, with the option to further delve into more subtopics with decriptions of each Martial Arts type. 
+For those looking to learn more about the different styles and types of Martial Arts available in search of dojos to support, just navigate to our "Sunburst" of knowledge on the "Home" page that will provide the user with more info on the various techniques such as strikes (punching, kicking),  grappling (throwing, pinning), Hybrid, etc, with the option to further delve into more subtopics with decriptions of each Martial Arts type. 
 
 You can either start by browsing the styles learn which one will best serve your interests or search your address below to see what is offered in your area.
 
