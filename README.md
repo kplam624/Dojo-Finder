@@ -43,6 +43,7 @@ The "Data" Page also hosts the compilation of Dojos in New Jersey with its respe
 * Pandas
 * Splinter
 * sessionStorage
+* Leaflet/Sunburst add on
 
 ## Process
 
