@@ -51,8 +51,8 @@ The "Data" Page also hosts the compilation of Dojos in New Jersey with its respe
 * Data Scraped the data from multiple Martial Art Dojo and informational websites to gather all relevant data
 * Data cleaned with Python
 * Extracted and transformed the data for use into a  MongoDB database with the scalability and flexibility needed, i.e. many Martial Arts schools host multiple sytles of Martial Arts across the board so MongoDB supports that data 
-* sessionStorage was used as a new tool further our efforts
-* Leaflet options leveraged for mapping purposes to identify the location and Dojo details within New Jersey. 
+* sessionStorage was used as a new tool to further our efforts
+* Leaflet options leveraged for mapping purposes to identify the location and Dojo details (tooltips) within New Jersey. 
 * HTML/CSS utilized to create the front-end pages to display the data and info in a user friendly view. 
 
 ## Heroku
