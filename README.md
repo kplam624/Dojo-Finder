@@ -19,13 +19,13 @@ To provide users with a data source that will help identify and locate a Martial
 
 Our focus for Version 1 is limited to the state of New Jersey, with the potential that future versions can expand to more states as desired. 
 
-## Let's Get Started 
+## Let's Get Started! 
 
 ---
 
 Do you want to learn how to fight but don’t know where to start? - you've come to the right place!! 
 
-As the purpose of these efforts is to create an application for users to find a martial art schools near them, this site will help unlock the secret "code" of Martial Arts for both beginners and continuing martial arts students.
+As the purpose of these efforts is to create an application for users to find a Martial Arts schools near them or at a preferred location, this site will help unlock the secret "code" of Martial Arts for both beginners and continuing Martial Arts students.
 
 For those looking to learn more about the different styles and types of martial arts available in search of schools to support, just navigate to our "sunburst" of knowledge that will provide the user with more info on the various techniques such as strikes (punching, kicking),  grappling (throwing, pinning), Hybrid, etc.
 
