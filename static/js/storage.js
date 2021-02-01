@@ -77,8 +77,9 @@ function runChange() {
 // API_KEY = 'pk.eyJ1Ijoia3BsYW02MjQiLCJhIjoiY2tqdW85emxoMGFkMzJ0cXppb2lnMGRvcCJ9.GxyMhx1CNAMxZXmJufDmDQ'
 
 d3.json('/apikey', function(apidata){
-    var newKey = apidata.pull;
+    var newKey = apidata[0].pull;
     console.log(apidata)
+    console.log(newKey)
     if (newKey){
         API_KEY = newKey;
     }
