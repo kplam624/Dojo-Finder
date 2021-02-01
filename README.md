@@ -17,7 +17,7 @@
 
 To provide users with a data source that will help identify and locate a Martial Arts dojo that best meets their needs. 
 
-Our focus for Version 1 is limited to the state of New Jersey, but future versions can expand to more states as desired. 
+Our focus for Version 1 is limited to the state of New Jersey, with the potential that future versions can expand to more states as desired. 
 
 ## Let's Get Started 
 
