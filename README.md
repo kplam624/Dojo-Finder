@@ -11,6 +11,11 @@
 * Jessy Thomas - Programmer/ Analyst
 
 
+## Background
+
+---
+There may be a lot of important and useful data available these days, but it is often dispersed among multiple data sources and not well organized. Extracting the data from its sources, transforming it by cleaning or reformatting it, and loading or storing the resulting data into a well designed database is a critical process for data-driven organization. Presenting the associated data visualizations in a well defined and organized web site for users makes it even more meaningful. 
+
 ## Mission
 
 ---
@@ -56,13 +61,11 @@ Do you want to learn how to fight but don’t know where to start? There’s doj
 ## Process
 
 ---
-* Data Scraped the data from multiple Martial Art Dojo and informational websites
+* Data Scraped the data from multiple Martial Art Dojo and informational websites to simplify and gather relevant data to further our mission
 * Data cleaning with Python
 * Extracted and transformed the data for use into a  MongoDB database with the scalability and flexibility needed, i.e. many Martial Arts schools host multiple sytles of Martial Arts across the board so MongoDB supports
 * sessionStorage was used as a new tool further these efforts
 * Leaflet options leveraged for mapping purposes identifying the location and Dojo details within New Jersey. 
-
-
 
 
 
@@ -71,9 +74,14 @@ Do you want to learn how to fight but don’t know where to start? There’s doj
 ---
 To check out the webpage in action without the set up visit: https://dojo-finder.herokuapp.com/
 
-## Version 2
+## Future Versions
 
 ---
 
-As we look to continuously improve, Version 2 will seek to link the New Jersey Counties dropdpown to more defined location on the map. Stay tuned! 
+As we look to continuously improve, our future versions will seek to: 
+1. Link the New Jersey Counties dropdpown to more defined location on the map.
+2. Refine our County search on the website's "Data" page. 
+3. Update our site based on suggestions from our users. 
+
+Stay tuned!! 
 
