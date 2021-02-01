@@ -6,7 +6,7 @@
 ---
 There may be a lot of important and useful data available regarding Martial Arts these days, but it is often dispersed among multiple data sources and not well organized. Extracting the data from its sources, transforming it by cleaning or reformatting it, and loading or storing the resulting data into a well designed database is a critical process for data-driven organizations. 
 
-Presenting the associated data visualizations in a well defined and organized web site for users who are looking for a nearby Dojo makes this process even more meaningful and effective. 
+Presenting the associated data visualizations in a well defined and organized website for users who are looking for a nearby Dojo makes this process even more meaningful and effective. 
 
 ## Mission
 
@@ -14,7 +14,7 @@ Presenting the associated data visualizations in a well defined and organized we
 
 To provide users with a data source that will help identify and locate a Martial Arts dojo that best meets their needs. 
 
-Our focus for our first version is limited to the state of New Jersey, with the potential that future versions can expand to more states as desired. 
+The focus for our first website version is limited to the state of New Jersey, with the potential that future versions can expand to more states as desired. 
 
 ## Let's Get Started! 
 
