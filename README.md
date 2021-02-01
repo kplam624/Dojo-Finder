@@ -1,20 +1,12 @@
 # Dojo-Finder
 
-## Team Members
-
----
-
-* Ben Kramskoi - Programmer/ Analyst
-* Kevin Lam - Programmer/ Analyst
-* Nehemiah Porter - Programmer/ Analyst
-* Buddy Slater - Programmer/ Analyst
-* Jessy Thomas - Programmer/ Analyst
-
 
 ## Background
 
 ---
-There may be a lot of important and useful data available these days, but it is often dispersed among multiple data sources and not well organized. Extracting the data from its sources, transforming it by cleaning or reformatting it, and loading or storing the resulting data into a well designed database is a critical process for data-driven organization. Presenting the associated data visualizations in a well defined and organized web site for users makes it even more meaningful. 
+There may be a lot of important and useful data available regarding Martial Arts these days, but it is often dispersed among multiple data sources and not well organized. Extracting the data from its sources, transforming it by cleaning or reformatting it, and loading or storing the resulting data into a well designed database is a critical process for data-driven organizations. 
+
+Presenting the associated data visualizations in a well defined and organized web site for users who are looking for a nearby Dojo makes this process even more meaningful and effective. 
 
 ## Mission
 
@@ -22,17 +14,17 @@ There may be a lot of important and useful data available these days, but it is 
 
 To provide users with a data source that will help identify and locate a Martial Arts dojo that best meets their needs. 
 
-Our focus for Version 1 is limited to the state of New Jersey, with the potential that future versions can expand to more states as desired. 
+Our focus for our first version is limited to the state of New Jersey, with the potential that future versions can expand to more states as desired. 
 
 ## Let's Get Started! 
 
 ---
 
-Do you want to learn how to fight but don’t know where to start? - you've come to the right place!! 
+Do you want to learn how to fight and defend yourself but don’t know where to start? - you've come to the right place!! 
 
-As the purpose of these efforts is to create an application for users to find a Martial Arts schools near them or at a preferred location, this site will help unlock the secret "code" of Martial Arts for both beginners and continuing Martial Arts students.
+As the purpose of these efforts is to create an application for users to find a Martial Arts schools near them, or at a preferred location, this site will help unlock the secret "code" of Martial Arts for both beginners and continuing Martial Arts students.
 
-For those looking to learn more about the different styles and types of martial arts available in search of schools to support, just navigate to our "sunburst" of knowledge that will provide the user with more info on the various techniques such as strikes (punching, kicking),  grappling (throwing, pinning), Hybrid, etc.
+For those looking to learn more about the different styles and types of Martial Arts available in search of dojos to support, just navigate to our "Sunburst" of knowledge that will provide the user with more info on the various techniques such as strikes (punching, kicking),  grappling (throwing, pinning), Hybrid, etc, with the option to further delve into more subtopics with decriptions of each Martial Arts type. 
 
 You can either start by browsing the styles learn which one will best serve your interests or search your address below to see what is offered in your area.
 
@@ -84,4 +76,14 @@ As we look to continuously improve, our future versions will seek to:
 3. Update our site based on suggestions from our users. 
 
 Stay tuned!! 
+
+## Team Members
+
+---
+
+* Ben Kramskoi - Programmer/ Analyst
+* Kevin Lam - Programmer/ Analyst
+* Nehemiah Porter - Programmer/ Analyst
+* Buddy Slater - Programmer/ Analyst
+* Jessy Thomas - Programmer/ Analyst
 
