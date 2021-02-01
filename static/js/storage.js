@@ -78,21 +78,11 @@ function runChange() {
 
 d3.json('/apikey', function(apidata){
     var newKey = apidata[0].pull;
-    console.log(apidata)
-    console.log(newKey)
     if (newKey){
         API_KEY = newKey;
-    }
-    else{
-        //SHH its a secret
-        API_KEY = 'pk.eyJ1Ijoia3BsYW02MjQiLCJhIjoiY2tqdW85emxoMGFkMzJ0cXppb2lnMGRvcCJ9.GxyMhx1CNAMxZXmJufDmDQ'
-
     };
 });
 
 // Setting the data to the session storage.
 data1 = sessionStorage.getItem('lat');
 data2 = sessionStorage.getItem('lng');
-
-console.log(data1);
-console.log(data2);
