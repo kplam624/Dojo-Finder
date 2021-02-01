@@ -22,20 +22,14 @@ The focus for our first website version is limited to the state of New Jersey, w
 
 Do you want to learn how to fight and defend yourself but don’t know where to start? - you've come to the right place!! 
 
-As the purpose of these efforts is to create an application for users to find a Martial Arts schools near them, or at a preferred location, this site will help unlock the secret "code" of Martial Arts for both beginners and continuing Martial Arts students.
+As the purpose of these efforts is to create an application for users to find a Martial Arts school near them, or at a preferred location, this site will help unlock the secret "code" of Martial Arts for both beginners and continuing Martial Arts students.
 
-For those looking to learn more about the different styles and types of Martial Arts available in search of dojos to support, just navigate to our "Sunburst" of knowledge on the "Home" page that will provide the user with more info on the various techniques such as strikes (punching, kicking),  grappling (throwing, pinning), Hybrid, etc, with the option to further delve into more subtopics with decriptions of each Martial Arts type. 
+For those looking to learn more about the different styles and types of Martial Arts available in search of dojos to support their interests, just navigate to our "Sunburst" of knowledge on the "Home" page. This visual tool will provide the user with more info on the various techniques such as Strikes (punching, kicking),  Grappling (throwing, pinning), Hybrid, etc, with the option to further refine browsing with more subtopics and decriptions of each Martial Arts type as selected by the user.  
 
-You can either start by browsing the styles learn which one will best serve your interests or search your address below to see what is offered in your area.
+The user can also just jump right in by searching with their preferred location details to determine the nearest or desired Dojo. The search result will take them to the "Map" Page for them to visually confirm or further refine their search results. 
 
-## Technical Focus
+The "Data" Page also hosts the compilation of Dojos in New Jersey with its respective details so the user can choose another method to filter the data requested. 
 
----
-
-What's your Focus? ... For those looking to learn more about the different styles and types of martial arts available, just navigate to our "sunburst" of knowledge that will provide the user with more info on the various techniques such as kicking, striking, grappling etc. 
-
-Do you want to learn how to fight but don’t know where to start? There’s dojos all around you but you have no idea what they teach and which style of fighting is right for you. That’s where we come in. You can either start by browsing the styles above to learn which one will best serve your interests or search your address below to see what is offered in your area.</p>
-    <p>Wherever you are in your search we can help. So pick a style or search your location, either way congrats on taking the first step to start kicking ass and taking names.</p>
 
 ## Technology
 
@@ -45,8 +39,8 @@ Do you want to learn how to fight but don’t know where to start? There’s doj
 * Python
 * Flask
 * Beautifulsoup
-* Mongodb
-* Sandas
+* MongoDB
+* Pandas
 * Splinter
 * sessionStorage
 
