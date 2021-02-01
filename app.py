@@ -10,9 +10,11 @@ app = Flask(__name__)
 
 if 'DATABASE_URL' in os.environ:
     mongo_url = os.environ['MONGO_URL']
+    key = os.environ['MAP_BOX_API']
 
 else:
     mongo_url = "mongodb://localhost:27017"
+
 
 # Defines the route to the home route.
 @app.route('/')
@@ -25,6 +27,18 @@ def home():
 def map():
     print("responding to the map route: ", datetime.datetime.now())
     return render_template("map.html")
+
+# Defines the route to the data route
+@app.route('/data')
+def data():
+    print("responding to the data route: ", datetime.datetime.now())
+    return render_template("data.html")
+
+# Defines the route to the about us route.
+@app.route('/about')
+def about():
+    print("responding to the about route: ", datetime.datetime.now())
+    return render_template("aboutusFINAL.html")
 
 # Will pull the data for use.
 @app.route('/dojoapi')
@@ -41,17 +55,16 @@ def dojo():
 
         return jsonify(dojo_data_from_db)
 
-# Defines the route to the data route
-@app.route('/data')
-def data():
-    print("responding to the data route: ", datetime.datetime.now())
-    return render_template("data.html")
+@app.route('/api_key')
+def key_pull():
+    heroku = []
+    
+    api_key = {'pull' : key}
+    
+    heroku.append(api_key)
 
-# Defines the route to the about us route.
-@app.route('/about')
-def about():
-    print("responding to the about route: ", datetime.datetime.now())
-    return render_template("aboutusFINAL.html")
+    return jsonify(heroku)
+
 
 if __name__ == "__main__":
     app.run(debug=True)

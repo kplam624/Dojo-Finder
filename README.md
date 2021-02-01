@@ -57,7 +57,7 @@ The "Data" Page also hosts the compilation of Dojos in New Jersey with its respe
 ## Heroku
 
 ---
-To check out the webpage in action without the set up visit: https://dojo-finder.herokuapp.com/
+To look at the [heroku app](https://dojo-finder.herokuapp.com/)
 
 ## Future Versions
 
