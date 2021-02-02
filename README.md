@@ -129,7 +129,7 @@ Markers are added to each dojo showing the name, phone number, address and the c
 
 ---
 
-The app was deployed to heroku. To look at the app use the this [link](https://dojo-finder.herokuapp.com/). If heroku is unavailable then please make sure to run `mongosetup.py` followed by `app.py`. This will allow you to run the app on the local machine. You will also need an api key for mapbox.
+The app was deployed to Heroku. To look at the app use the this [link](https://dojo-finder.herokuapp.com/). If Heroku is unavailable then please make sure to run `mongosetup.py` followed by `app.py`. This will allow you to run the app on the local machine. You will also need an api key for mapbox.
 
 ## Future Versions
 
