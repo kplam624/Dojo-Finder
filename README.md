@@ -50,7 +50,7 @@ Data Scraped from a Martial Art Dojo and informational websites to gather all re
 
 ![webscrape](images/webscrape.png)
 
-Utilizing pandas, beautifulsoup and splinter, the code will pull the following information:
+Utilizing Pandas, Beautifulsoup and Splinter, the code will pull the following information:
 
 * Name of the Dojo
 * Phone Number
@@ -71,7 +71,7 @@ The pulled data is placed into a dictionary which will be append to the `dojo_li
 
 ---
 
-The dataframe is then cleaned before we use the google api and being sent to a mongo database.
+The dataframe is then cleaned before we use the Google API and being sent to a MongoDB database.
 
 ![datacleaning](images/datacleaning.png)
 
