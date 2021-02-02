@@ -40,24 +40,96 @@ The "Data" Page also hosts the compilation of Dojos in New Jersey with its respe
 * MongoDB
 * Pandas
 * Splinter
-* sessionStorage
 * Leaflet/Sunburst add on
 
-## Process
+## Datascraping
 
 ---
 
-* Data Scraped the data from multiple Martial Art Dojo and informational websites to gather all relevant data
-* Data cleaned with Python
-* Extracted and transformed the data for use into a  MongoDB database with the scalability and flexibility needed, i.e. many Martial Arts schools host multiple sytles of Martial Arts across the board so MongoDB supports that data.
-* sessionStorage was used as a new tool to further our efforts
-* Leaflet options leveraged for mapping purposes to identify the location and Dojo details (tooltips) within New Jersey.
-* HTML/CSS utilized to create the front-end pages to display the data and info in a user friendly view.
+Data Scraped from a Martial Art Dojo and informational websites to gather all relevant data
+
+![webscrape](images/webscrape.png)
+
+Utilizing pandas, beautifulsoup and splinter, the code will pull the following information:
+
+* Name of the Dojo
+* Phone Number
+* Zipcode
+* Street Address
+* City
+* State
+* Styles that the dojo teaches
+* County
+
+![infopull](images/dojodict.png)
+
+The pulled data is placed into a dictionary which will be appened to the `dojo_list` list. Once the list of dictionaries is created, the dictionary is used to create the dataframe.
+
+![dojodf](images/dojodf.png)
+
+## Data Cleaning
+
+---
+
+The dataframe is then cleaned before we use the google api and being sent to a mongo database.
+
+![datacleaning](images/datacleaning.png)
+
+Some of the entries are missing value or have invalid cells(i.e. email addresses in the street address cell). With this cleaned database, the next step is to use the google api.
+
+![googleapi](images/googleapi.png)
+
+The url is created with the street address, city, state and api_key. The api urls are then placed in a list that requires a for loop. The latitude and longitude are then appended to each dictionary. The updated list of dictionaries are then uploaded into another dataframe.
+
+![geocode](images/geocode.png)
+
+There are cases that the geocode does not have results. As such the latitude are then marked as `""` or empty. This is then later removed.
+
+The new dataframe is then saved as a json file. This json file can then be used to create the mongodb on a local machine.
+
+## Load
+
+---
+
+Extracted and transformed the data for use into a  MongoDB database with the scalability and flexibility needed, i.e. many Martial Arts schools host multiple sytles of Martial Arts across the board so MongoDB supports that data.
+
+![mongodb](images/mongo.png)
+
+This code is the same as the code in mongosetup.py
+
+## Webpages
+
+---
+
+HTML/CSS utilized to create the front-end pages to display the data and info in a user friendly view.
+
+![header](images/headerfront.png)
+
+Using javascript's sunburst plugin, the information was displayed in an intereactive manner.
+
+![sunburst](images/sunburst.png)
+
+![sunburstcode](images/sunburstcode.png)
+
+Javascript's sessionStorage was used as a new tool to further our efforts. Main functionality is to save any form information. This is then used for the leaflet map to focus in on.
+
+![latlngsearch](images/latlngsearch.png)
+
+![sessionstorcode](images/sessionstorage.png)
+
+Leaflet options leveraged for mapping purposes to identify the location and Dojo details (tooltips) within New Jersey.
+
+![leaflet](images/leaflet.png)
+
+Markers are added to each dojo showing the name, phone number, address and the county along with the state.
+
+![leaflet](images/leafletdojo.png)
 
 ## Heroku
 
 ---
-To look at the [heroku app](https://dojo-finder.herokuapp.com/)
+
+The app was deployed to heroku. To look at the app use the this [link](https://dojo-finder.herokuapp.com/). If heroku is unavailable then please make sure to run `mongosetup.py` followed by `app.py`. This will allow you to run the app on the local machine. You will also need an api key for mapbox.
 
 ## Future Versions
 
@@ -68,7 +140,8 @@ As we look to continuously improve, our future versions may seek to:
 1. Link the New Jersey Counties dropdown on the current "Home" Page to more defined location on the "Map" Page.
 2. Refine our County search or filter options on the website's "Data" Page in a more advanced manner.
 3. Continuously take in feedback and update our website based on suggestions from our users.
-4. Update the "sunburst" of knowledge tool to adapt to popular styles in states outside of NJ as other states are added in. 
+4. Update the "sunburst" of knowledge tool to adapt to popular styles in states outside of NJ as other states are added in.
+5. Having the map look less cluttered.
 
 Stay tuned!!
 
@@ -81,3 +154,5 @@ Stay tuned!!
 * Nehemiah Burney-Porter - Programmer/ Analyst
 * Buddy Slater - Programmer/ Analyst
 * Jessy Thomas - Programmer/ Analyst
+
+![aboutus](images/aboutus.png)
