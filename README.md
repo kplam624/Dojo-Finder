@@ -75,17 +75,17 @@ The dataframe is then cleaned before we use the Google API and being sent to a M
 
 ![datacleaning](images/datacleaning.png)
 
-Some of the entries are missing value or have invalid cells(i.e. email addresses in the street address cell). With this cleaned database, the next step is to use the google api.
+Some of the entries are missing values or have invalid cells(i.e. e-mail addresses in the street address cell). With this cleaned database, the next step is to use the Google API.
 
 ![googleapi](images/googleapi.png)
 
-The url is created with the street address, city, state and api_key. The api urls are then placed in a list that requires a for loop. The latitude and longitude are then appended to each dictionary. The updated list of dictionaries are then uploaded into another dataframe.
+The url is created with the street address, city, state and api_key. The API urls are then placed in a list that requires a "for loop." The latitude and longitude are then appended to each dictionary. The updated list of dictionaries are then uploaded into another dataframe.
 
 ![geocode](images/geocode.png)
 
-There are cases that the geocode does not have results. As such the latitude are then marked as `""` or empty. This is then later removed.
+There are cases that the Geocode does not have results. As such the latitude are then marked as `""` or empty. This is then later removed.
 
-The new dataframe is then saved as a json file. This json file can then be used to create the mongodb on a local machine.
+The new dataframe is then saved as a json file. This json file can then be used to create the MongoDB on a local machine.
 
 ## Load
 
