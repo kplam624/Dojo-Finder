@@ -63,7 +63,7 @@ Utilizing pandas, beautifulsoup and splinter, the code will pull the following i
 
 ![infopull](images/dojodict.png)
 
-The pulled data is placed into a dictionary which will be appened to the `dojo_list` list. Once the list of dictionaries is created, the dictionary is used to create the dataframe.
+The pulled data is placed into a dictionary which will be append to the `dojo_list` list. Once the list of dictionaries is created, the dictionary is used to create the dataframe.
 
 ![dojodf](images/dojodf.png)
 
